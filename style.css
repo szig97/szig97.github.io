@@ -9,12 +9,12 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
-    color: #333;
-    background: #efeee7;
+    color: rgb(0, 0, 0);
+    background: #e7cd08;
   }
   
   header {
-    background: #333;
+    background: rgb(0, 0, 0);
   }
   
   h1 {
