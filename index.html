@@ -1,25 +1,38 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <h1>Sam Ziegler</h1>
+  <header>
+    <h1>Sam Ziegler</h1>
+  </header>
 
-  <img src="C:\Users\szig9\Desktop\Homework Folder\GitHub pages\szig97.github.io\Images\headshot (3).jpg">
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <img id="bio-image" src="C:\Users\szig9\Desktop\Homework Folder\GitHub pages\szig97.github.io\Images\headshot (3).jpg" width=100% alt="Your Name">
+      </section>
+      <p>Recent college graduate with a background in Political Science seeking an entry level position in Business Analytics, BI Analytics, or Data Analytics Trained at the University of Minnesota’s Data Analytics and Visualization Bootcamp where I gained a Certificate. Proficient in Microsoft Excel, Powerpoint, Python, and SQL. Team-oriented individual with strengths in analytical problem solving and being an independent self-starter.</p>
+    </section>
 
-
-  <p>Recent college graduate with a background in Political Science seeking an entry level position in Business Analytics, BI Analytics, or Data Analytics</p>
-  <p>Trained at the University of Minnesota’s Data Analytics and Visualization Bootcamp where I gained a Certificate. Proficient in Microsoft Excel, Powerpoint, Python, and SQL. Team-oriented individual with strengths in analytical problem solving and being an independent self-starter.</p>
-
-  <u1>
-    <li><strong>Email:</strong> <a href="#">szig97@outlook.com</a></li>
-    <li><strong>GitHub:</strong> <a href="#">https://github.com/szig97</a></li>
-    <li><strong>Linkedin:</strong> <a href="#">https://www.linkedin.com/in/sam-ziegler-5b7b7896/</a></li>
-  </u1>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">szig97@outlook.com</a></li>
+        <li><strong>Github:</strong> <a href="#">https://github.com/szig97</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
 </body>
 
