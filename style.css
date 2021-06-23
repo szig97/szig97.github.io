@@ -44,7 +44,7 @@ body {
   #main-bio,
   #contact-info,
   #bio-image {
-    float: left;
+    float: center;
   }
   
   #figure {
